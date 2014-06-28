@@ -1,0 +1,203 @@
+/*http://jsbin.com/wozocabi/1*/
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+html, body { 
+  /*background: url(./images/background.jpg) no-repeat center center fixed;*/
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: PT Sans Narrow, 'Open Sans Condensed', sans-serif;
+  height: 100%;
+  background-color: white;
+}
+
+header {
+	position: static;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 4em;
+	font-weight: lighter;
+	color: #333333;
+	padding-top: 40px;
+	margin-left: 11%;
+}
+
+#who {
+	letter-spacing: -4px;
+}
+
+#reg {
+	font-size: small;
+}
+
+.subheader {
+	position: static;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 1em;
+	color: #333333;
+	font-weight: normal;
+}
+
+#city {
+	font-weight: bold;
+}
+
+#inc {
+	font-size: small;
+}
+
+.login {
+	position: relative;
+	float: right;
+	width: 120px;
+	height: 39px;
+	margin-right: 40px;
+	margin-top: 40px;
+	background-color: #333333;
+	border-radius: 5px;
+}
+
+.login:hover {
+	background-color: #666666;
+	cursor: pointer;
+}
+
+.login > div {
+	color: white;
+	text-align: center;
+	margin-top: 12px;
+}
+
+/*max elements per line*/
+
+.courts {
+	position: relative;
+	float: right;
+	padding-top:40px;
+	padding-left: 40px;
+}
+
+li {
+	display: inline-block;
+	padding-bottom: 20px;
+	padding-right: 40px;
+}
+
+.court-1,
+.court-2,
+.court-3,
+.court-4,
+.court-5,
+.court-6,
+.court-7,
+.court-8 {
+	width: 180px;
+	height: 180px;
+	border: 5px solid #333333;
+}
+
+.court-1 {
+	content:url(./images/oceanside.jpg);
+}
+
+.court-1:hover {
+	width: 250px;
+	height: 250px;
+}
+
+.court-2 {
+	content:url(./images/carlsbad.jpg);
+}
+
+.court-3 {
+	content:url(./images/san-marcos.jpg);
+}
+
+.court-4 {
+	content:url(./images/vista.jpg);
+}
+
+.court-5 {
+	content:url(./images/encinitas.jpg);
+}
+
+.court-6 {
+	content:url(./images/del-mar.jpg);
+}
+
+.court-7 {
+	content:url(./images/carmel-valley.jpg);
+}
+.court-8 {
+	content:url(./images/la-jolla.jpg);
+}
+
+.footer {
+	position: absolute;
+	display: block;
+	left:0px;
+	bottom: 0;
+	height:41px;
+	width: 100%;
+	background: #333333;
+	font-size: small;
+	min-width: 980px;
+	line-height: 40px;
+	margin-top: 40px;
+	color: white;
+}
+
+#footer-text {
+	float: left;
+	padding-left: 1em;
+}
